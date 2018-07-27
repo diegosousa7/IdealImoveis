@@ -1,3 +1,15 @@
 /*cores para o template
 #251E17-marrom;
 #EFE851-dourado;
+*/
+header {
+width: 100%;
+height: 150px; 
+background: #251E17;  
+}
+.header-gold{
+    width: 100%;
+    height: 40px; 
+    background: #EFE851; 
+}
+
