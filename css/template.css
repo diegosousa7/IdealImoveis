@@ -38,7 +38,7 @@ nav li input{
     float: left;
     width: 80%;
     background: #0f0a06;
-    font-color: #fff;
+    color: #fff;
 }
 nav li button{
   float: left;
@@ -57,13 +57,24 @@ nav li button:hover{
 #banner img{
     width: 100%;
     height: 697px;
-    margin-top:-27px;
+    margin-top:-35px;
 
 }
 #banner h1{
     position: relative;
     text-align: center;
     top:400px;
-    font-size: 52px;
+    font-size: 58px;
     color:#0f0a06;
+}
+#destaques h2{
+    text-align: center;
+    color: #daa520;
+}
+/*área de conteúdo*/
+.col-sm{
+    height: 300px;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 3px 1px #0f0a06;
 }
