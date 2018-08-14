@@ -5,13 +5,35 @@
 header {
 width: 100%;
 height: 150px; 
-background: #251E17;
-position: relative;
-
+background: rgba(37, 30, 23,.78);
+position: absolute;
 }
 header .header-gold{
     width: 100%;
     height: 40px; 
     background: #EFE851; 
     position: absolute;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 86px;
+    margin-left: 10px;
+    color: #fff;
+    font-family: sans-serif;
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+
+}
+ul li a:hover{
+    color: #EFE851;
+}
+#banner img{
+    width: 100%;
+    height: 697px;
+    margin-top:-15px;
+
 }
