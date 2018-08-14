@@ -14,14 +14,10 @@ header .header-gold{
     background: #ffd882; 
     position: absolute;
 }
-header .header-gold img{
-
-}
-
 ul li {
     list-style: none;
     display: inline-block;
-    margin-top: 86px;
+    margin-top: 65px;
     margin-left: 10px;
     color: #fff;
     font-family: sans-serif;
@@ -34,13 +30,40 @@ ul li a{
 ul li a:hover{
     color: #ffde89;
 }
+nav li input{
+    top:15px;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #0f0a06;
+    font-color: #fff;
+}
+nav li button{
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #0f0a06;
+  color: white;
+  font-size: 12px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+nav li button:hover{
+    background: #ffde89;
+}
 #banner img{
     width: 100%;
     height: 697px;
-    margin-top:-15px;
+    margin-top:-27px;
 
 }
 #banner h1{
     position: relative;
     text-align: center;
+    top:400px;
+    font-size: 52px;
+    color:#0f0a06;
 }
