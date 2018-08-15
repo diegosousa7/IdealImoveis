@@ -81,6 +81,12 @@ nav li button:hover{
     margin: 10px;
     box-shadow: 3px 1px #0f0a06;
 }
+#c1l1 img{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+/*rodapé*/
 footer{
 background:rgb(37, 30, 23);
 width: 100%;
@@ -106,3 +112,4 @@ footer a{
 footer a:hover{
     color: #daa520;
 }
+
