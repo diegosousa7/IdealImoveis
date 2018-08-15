@@ -14,6 +14,9 @@ header .header-gold{
     background: #ffd882; 
     position: absolute;
 }
+#menu{
+    float: right;
+}
 ul li {
     list-style: none;
     display: inline-block;
@@ -77,4 +80,29 @@ nav li button:hover{
     border-radius: 8px;
     margin: 10px;
     box-shadow: 3px 1px #0f0a06;
+}
+footer{
+background:rgb(37, 30, 23);
+width: 100%;
+height: 200px;
+position: relative;
+}
+.footer-dark{
+    margin-top: 150px;
+    background:#0f0a06;;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+}
+footer p{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #daa520;
 }
