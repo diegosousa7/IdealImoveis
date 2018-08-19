@@ -82,6 +82,7 @@ nav li button:hover{
     box-shadow: 3px 1px #0f0a06;
 }
 #c1l1 img{
+    background-image: url("../img/img1.jpg");
     width: 250px;
     height: 150px;
     border-radius: 10px;
