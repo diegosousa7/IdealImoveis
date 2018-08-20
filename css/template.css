@@ -113,4 +113,8 @@ footer a{
 footer a:hover{
     color: #daa520;
 }
+.card {
+    margin: 25px 30px;
+    float: center;
+}
 
