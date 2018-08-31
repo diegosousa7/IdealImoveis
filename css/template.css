@@ -14,16 +14,20 @@ header .header-gold{
     background: #ffd882; 
     position: absolute;
 }
-#menu{
-    float: right;
-}
 ul li {
     list-style: none;
     display: inline-block;
     margin-top: 65px;
     margin-left: 10px;
+    margin-right: 10px
     color: #fff;
     font-family: sans-serif;
+}
+
+#logo {
+    margin-top: 40px;
+    width: 90px;
+    height: 90px;
 }
 ul li a{
     color: #fff;
@@ -32,16 +36,18 @@ ul li a{
 }
 ul li a:hover{
     color: #ffde89;
+    text-decoration: none;
 }
 nav li input{
-    top:15px;
+    top:16px;
     padding: 10px;
     font-size: 12px;
     border: 1px solid grey;
     float: left;
-    width: 80%;
+    width: 70%;
     background: #0f0a06;
     color: #fff;
+    margin-right: 2px;
 }
 nav li button{
   float: left;
@@ -115,6 +121,5 @@ footer a:hover{
 }
 .card {
     margin: 25px 30px;
-    float: center;
 }
 
